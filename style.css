@@ -401,6 +401,10 @@ padding-top: 10px; }
     height: auto;
 }
 
+.img-prod:hover {
+    transform: scale(1.2);
+
+}
 .precio {
     font-size: 13px;
     font-weight: bold;

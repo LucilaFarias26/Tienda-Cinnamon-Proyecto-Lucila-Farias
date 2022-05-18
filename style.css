@@ -3,7 +3,7 @@
 /* Reglas generales */
 
 body {
-    background-color: #fcf3f0;
+    background-color: #fcf3f0 ! important;
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     color: #CF9682;
@@ -71,6 +71,7 @@ footer {
 
 h3.titulo-info-footer {
     font-weight: bold;
+    font-size: 18px;
 }
 .contenedor-info-footer {
     height: auto;

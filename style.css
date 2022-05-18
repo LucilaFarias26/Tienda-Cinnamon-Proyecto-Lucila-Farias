@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Lato:ital,wght@0,300;0,700;1,400&display=swap');
+
+/* Reglas generales */
+
+body {
+    background-color: #fcf3f0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: #CF9682;
+    margin: 0;
+    padding: 0;
+}
+
+/*Reglas nav*/
+.navbar-brand {
+   color: #CF9682;
+   font-weight: bold;
+}
+.nav-link {
+    color:#CF9682 !important; 
+font-weight: bold;}
+
+.navbar-nav .nav-link:hover {
+color: white!important;
+}
+
+.navbar-toggler {
+    border: 1px solid #952b2ba1!important;
+}
+
+#encabezado {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-color: #f1cfba;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    display: block;
+}
+
+/*Reglas de los títulos*/
+
+.titulos {
+    font-family: 'Cantata One', serif;
+    font-weight: 40px;
+    word-spacing: 5px;
+    text-align: center;
+    color: #CF9682;
+    margin-top: 50px;
+}
+
+.subtitulos {
+    color: #CF9682;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+.sub-subtitulos {
+    text-align: center;
+    font-family: 'Cantata One', serif;
+    padding: 10px 10px;
+}
+
+/*Reglas del footer */
+
+footer {
+    background-color: #f1cfba;
+
+}
+
+h3.titulo-info-footer {
+    font-weight: bold;
+}
+.contenedor-info-footer {
+    height: auto;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    padding-bottom: 2%;
+    justify-content: space-around;
+    color: #CF9682;
+}
+
+@media (max-width: 768px) {
+    .contenedor-info-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor-info-footer {
+        font-size: 10px;
+
+    }}
+    
+@media (max-width: 768px) {
+    .titulo-info-footer{
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+.columna {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.redes-sociales {
+    font-size: 1.2rem;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+}
+
+.copy {
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+    color: #CF9682
+}
+
+/*Pagina de inicio */
+.main-home {
+    color:#CF9682;
+}
+
+
+ .section-2-home{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     margin-top: 25px;
+}
+
+@media (max-width: 768px) { 
+    .section-2-home{
+      height: 30vh;
+    }
+}
+
+@media (max-width: 375px) { 
+    .section-2-home{
+      height: 18vh;
+    }
+}
+
+@media (max-width: 375px) {
+.img-home {
+    width: 300px;
+}
+}
+
+.contenedor-imagenes-home{
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+}
+.texto-banner{
+    text-align: center;
+} 
+
+
+@media (max-width: 768px) { 
+    .contenedor-imagenes-home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-banner{
+        text-align: center;
+        align-items: center ;}
+}
+
+.contenedor-banner-informativo {
+    display: flex;
+    background-color: #f1cfba;
+    padding: 20px;
+    box-direction: row;
+    flex-basis: 100px;
+    justify-content: center;
+    }
+
+.columna-banner-informativo {
+     text-align: center;
+     width: 30%;
+    padding: 10px;
+}
+
+.columna-banner-informativo p {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) { 
+    .contenedor-banner-informativo {
+        flex-direction: column;
+        flex-basis: 100%;
+        align-items: center;
+    }
+}
+
+
+ #lista-de-productos-home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-items: center;
+}
+
+@media (max-width: 768px) { 
+    #lista-de-productos-home {
+        display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       align-items: center;
+    }
+}
+
+.btn-comprar{
+    text-align: center;
+    border: solid 1px #CF9682;
+    background-color: #CF9682;
+    color: white; 
+    font-weight: bold;
+    border-radius: 30px;
+    width: 100px;
+    margin: auto;
+}  
+
+
+/*Pagina contacto*/
+
+.contacto {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+@media (max-width: 768px) {
+    .contacto {
+        flex-direction: column;
+    }
+}
+
+.info-contacto {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .info-contacto {
+        text-align: center; 
+        font-size: 1rem;
+
+}
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.contenedor-form {
+    border-radius: 20px;
+    border: 1px solid #CF9682;
+    width: 40%;
+
+}
+
+.contenedor-form-msj {
+    border-radius: 20px;
+    border: 1px solid #CF9682;
+    width: 40%;
+    padding: 16px;
+
+
+}
+
+.campo {
+    margin-right: 10px;
+}
+
+.boton {
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #CF9682;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*Página nosotros*/
+
+.encabezado-nosotros {
+    font-family: 'Cantata One', serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    background-color: #f1cfba;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.texto-nosotros {
+
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .texto-nosotros{
+    text-align: center;
+}
+}
+.img-equipo {
+    display: block;
+    margin: auto;
+    max-width: 100%
+}
+
+.contenedor-imagenes-nosotros {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 100%
+}
+
+@media (max-width: 768px) {
+    .contenedor-imagenes-nosotros {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.lista-de-valores {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+/*Pagina preguntas frecuentes */
+
+.preguntas-frecuentes {
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*Pagina productos */
+
+#section-2-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-items: center;
+}
+
+@media (max-width: 768px) {
+    #section-2-productos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 375px) {
+    #section-2-productos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+#lista-de-productos img {
+    max-width: 100%;
+    height: auto;
+}
+
+.precio {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px
+}
+
+.item-name {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: -10px;
+}
+
+.cuotas {
+    font-size: 12px;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+@media (max-width: 768px) { 
+.cuotas {
+    font-size: 14px;
+}
+
+
+
+

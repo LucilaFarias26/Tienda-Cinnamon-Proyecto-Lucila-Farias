@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <script src="https://kit.fontawesome.com/6534695e4e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<!--Favicon-->
+<link rel="shortcut icon" href="../imagenes/icons8-sparkling-50.png" type="brillo">
+<!--Fin Favicon-->
+<body>
+    <p id="encabezado"> ✨ HASTA 6 CUOTAS SIN INTERÉS | ENVÍOS A TODO EL PAÍS ✨ </p>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #f1cfba;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="/imagenes/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo de la marca">
+                    INICIO </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../secciones/contacto.html"> CONTACTO </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="../secciones/nosotros.html">NOSOTROS</a>
+                  </li>
+                  
+                <li class="nav-item">
+                  <a class="nav-link" href="../secciones/preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a>
+                </li>
+              
+                <li class="nav-item">
+                    <a class="nav-link" href="../secciones/productos.html">PRODUCTOS</a>
+                  </li>
+    
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <h1 class="titulos">CONTACTO</h1>
+    <section class="section-2-contacto">
+        <div class="contacto">
+            <ul>
+                <li class="info-contacto">¿Hablamos? Si tenés alguna consulta sobre un producto o duda sobre el estado
+                    de tu
+                    pedido, estoy de este lado para ayudarte :) Completá el formulario debajo y prometo responderte a la
+                    brevedad✨</li>
+                <li class="info-contacto"><span class="fas fa-map-marker-alt"></span> Pick-up point: Juana Manso 1666,
+                    Capital Federal - Lunes
+                    a Sábados de 11 a 18 hs </li>
+                <li class="info-contacto"><span class="fas fa-phone-alt"></span> hola@tiendacinnamon.com</span></li>
+            </ul>
+        </div>
+     
+        <!--Inicio Formulario-->
+        <form>
+            <div class="form-group">
+                <form action="https://formspree.io/f/mayvpdjy" method="POST">
+                    <label for="nombre" class="campo">Nombre</label>
+                    <input type="text" name="nombre" class="contenedor-form" />
+            </div>
+            <div class="form-group">
+                <label for="email" class="campo">E-mail</label>
+                <input type="text" name="email" required class="contenedor-form" />
+            </div>
+
+            <div class="form-group">
+                <label for="telefono" class="campo">Teléfono</label>
+                <input type="text" name="telefono" class="contenedor-form" />
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje" class="campo"> Mensaje</label>
+                <input type="text" name="mensaje" class="contenedor-form-msj" />
+            </div>
+            <div class="form-group">
+                <input type="submit" class="boton" />
+            </div>
+        </form>
+    </section>
+
+    <section class="section-5-home">
+        <footer>
+            <div class="contenedor-info-footer">
+                <div class="columna">
+                    <h3 class="titulo-info-footer" >Tienda Cinnamon</h3>
+                    <p>Somos Cinnamon, tu tienda deco favorita. Buscamos inspirarte a que hagas de tu hogar tu espacio
+                        ideal. </p>
+                </div>
+                <div class="columna">
+                    <h3 class="titulo-info-footer">Dónde encontrarnos</h3>
+                    <div>
+                        <div>
+                            <span class="fas fa-map-marker-alt"></span>
+                            <span class="text">Juana Manso 1666, Capital Federal</span>
+                        </div>
+                        <div>
+                            <span class="fas fa-phone-alt"></span>
+                            <span class="text"> +54 1134036687</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna">
+                    <h3 class="titulo-info-footer">Sigamos conectados</h3>
+                    <div class="redes-sociales">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+                <p>Copyright Cinnamon by Lucila Farías ® - 2022. Todos los derechos reservados. </p>
+            </div>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

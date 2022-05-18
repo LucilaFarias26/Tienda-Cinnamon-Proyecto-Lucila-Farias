@@ -54,6 +54,7 @@ color: white!important;
     font-weight: bold;
     text-align: center;
     font-size: 25px;
+    padding-top: 10px;
 }
 
 .sub-subtitulos {
@@ -359,6 +360,15 @@ h3.titulo-info-footer {
     padding-right: 10px;
     margin-bottom: 10px;
 }
+
+.subtitulo-promociones {
+color: #CF9682;
+font-weight: bold;
+text-align: left;
+margin-left: 190px;
+font-size: 25px;
+padding-top: 10px; }
+
 
 /*Pagina productos */
 
